@@ -9,8 +9,8 @@ import (
 type Item struct {
 	ID    int    `json:"id"`
 	Name  string `json:"name"`
-	Price string `json:"price"`
-	Qty   string `json:"qty"`
+	Price int    `json:"price"`
+	Qty   int    `json:"qty"`
 }
 
 var items []Item
